@@ -6,6 +6,7 @@ int main()
 
     std::cout << x << "\n";
     std::cout << &x << "\n";
+    std::cout << *&x << "\n";
 
     return 0;
 }
