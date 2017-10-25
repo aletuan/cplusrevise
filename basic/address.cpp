@@ -21,6 +21,10 @@ int main()
     std::cout << "This is reference value" << "\n";
     std::cout << ref << std::endl;
 
+    // change reference value
+    ref = 10;
+    std::cout << x << "\n";
+
     std::cout << "Type of &x " << std::endl;
     std::cout << typeid(&x).name() << "\n";
     
